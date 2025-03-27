@@ -1,0 +1,30 @@
+{
+  "nws_atom_url": "https://alerts.weather.gov/cap/us.php?x=1",
+  "check_interval_seconds": 900,
+  "post_delay_seconds": 15,
+  "user_agent": "MyNWSDiscordBot/3.4 (+ContactInfo)",
+  "database_file": "alerts_v3.db",
+  "max_process_per_cycle": 50,
+  "status_rotation_minutes": 15,
+  "database_retention_days": 30,
+
+  "discord": {
+    "enabled": true,
+    "token": "YOUR_DISCORD_BOT_TOKEN_HERE",
+    "channel_id": "YOUR_NWS_ALERT_CHANNEL_ID_HERE",
+    "error_channel_id": "YOUR_ERROR_LOGGING_CHANNEL_ID_HERE",
+    "changelog_channel_id": "YOUR_CHANGELOG_CHANNEL_ID_HERE",
+    "owner_ids": "YOUR_DISCORD_USER_ID_HERE"
+  },
+
+  "filtering": {
+    "min_severity": "Unknown",
+    "min_certainty": "Unknown",
+    "min_urgency": "Unknown",
+    "blocked_event_types": [
+      "Test Message",
+      "Administrative Message",
+      "Special Weather Statement"
+    ]
+  }
+}
