@@ -2,7 +2,8 @@
 
 A Python-based Discord bot that monitors National Weather Service (NWS) Atom/CAP feeds for weather alerts and posts customizable notifications to a designated Discord channel. It includes features for user subscriptions based on location and event type, automatic role creation, and role pinging.
 
-**(Consider adding a screenshot of an alert embed here)**
+<img width="677" alt="image" src="https://github.com/user-attachments/assets/1f4fe735-ed3c-4e2f-a21a-8206666a27d1" />
+
 
 ## Features
 
