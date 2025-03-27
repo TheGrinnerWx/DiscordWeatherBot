@@ -123,6 +123,10 @@ Use `!help` to see commands within Discord.
 * `!reboot`: Attempts to reboot the host machine (Requires `sudo`). **Use with extreme caution.**
 * `!sysshutdown`: Attempts to shut down the host machine (Requires `sudo`). **Use with extreme caution.**
 
-## License
+## Support
 
-(Optional: Specify your license here. MIT is a common choice for open source.)
+If you need help with the bot or have questions, feel free to join our support Discord server:
+
+[Join the Support Server](https://discord.gg/Fq5zBRv7np)
+
+You can also reach out via email: solomonder1234@gmail.com
